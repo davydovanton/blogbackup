@@ -11,6 +11,7 @@ gems: ['emoji_for_jekyll']
 exclude:
   - README.md
   - Gemfile
+  - Rakefile
   - Gemfile.lock
 
 sitemap:
