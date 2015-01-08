@@ -12,13 +12,25 @@
     .post__tags-title {
       margin-top: 0;
     }
+
+    .post__content p {
+      font-size: 1.1rem;
+    }
   }
 
   .about {
     .about__my-photo {
-      margin-bottom: 15px;
+      margin: 0 auto 15px;
       width: 290px;
     }
+
+    .about__text p {
+      font-size: 1.4rem;
+    }
+  }
+
+  code {
+    font-size: 1rem;
   }
 }
 
@@ -35,13 +47,25 @@
     .post__tags-title {
       margin-top: 0;
     }
+
+    .post__content p {
+      font-size: 1.1rem;
+    }
   }
 
   .about {
     .about__my-photo {
-      margin-bottom: 15px;
+      margin: 0 auto 15px;
       width: 290px;
     }
+
+    .about__text p {
+      font-size: 1.4rem;
+    }
+  }
+
+  code {
+    font-size: 1rem;
   }
 }
 
@@ -64,6 +88,10 @@
     .post__tags-title {
       margin-top: 50px;
     }
+
+    .post__content p {
+      font-size: 1.4rem;
+    }
   }
 
   .about {
@@ -72,6 +100,14 @@
       margin: 0 0 15px 15px;
       width: 350px;
     }
+
+    .about__text p {
+      font-size: 1.4rem;
+    }
+  }
+
+  code {
+    font-size: 1.2rem;
   }
 }
 
@@ -93,6 +129,10 @@
     .post__tags-title {
       margin-top: 50px;
     }
+
+    .post__content p {
+      font-size: 1.4rem;
+    }
   }
 
   .about {
@@ -101,6 +141,14 @@
       margin: 0 0 15px 15px;
       width: 350px;
     }
+
+    .about__text p {
+      font-size: 1.4rem;
+    }
+  }
+
+  code {
+    font-size: 1.2rem;
   }
 }
 
@@ -123,6 +171,10 @@
     .post__tags-title {
       margin-top: 50px;
     }
+
+    .post__content p {
+      font-size: 1.7rem;
+    }
   }
 
   .about {
@@ -131,6 +183,14 @@
       margin: 0 0 15px 15px;
       width: 350px;
     }
+
+    .about__text p {
+      font-size: 1.7rem;
+    }
+  }
+
+  code {
+    font-size: 1.4rem;
   }
 }
 
@@ -152,6 +212,10 @@
     .post__tags-title {
       margin-top: 50px;
     }
+
+    .post__content p {
+      font-size: 1.7rem;
+    }
   }
 
   .about {
@@ -160,5 +224,13 @@
       float: right;
       width: 350px;
     }
+
+    .about__text p {
+      font-size: 1.7rem;
+    }
+  }
+
+  code {
+    font-size: 1.4rem;
   }
 }
