@@ -13,7 +13,9 @@ tags:
 Но для начала давайте посмотрим документацию, а именно откроем модуль [IRB](http://www.ruby-doc.org/stdlib-2.0/libdoc/irb/rdoc/IRB.html) в стандартной библиотеке ruby.
 "Что интересного тут есть?", спросите вы? Думаю стоит начать с самого начала, с запуска. Если вы просто наберете в консоли `irb`, то запустите шел с вашей текущей версией руби. Но  если у вас RVM(хотя, сказать по правде я не уверен, что это работает только с RVM), то вы можете выбрать среду для запуска из всех тех, что у вас установлены. Например вот так, я, при активном MRI 2.0, могу запустить у себя jruby:
 
+<a class="lightbox" href="{{ site.url }}/images/2014/02/irb-and-all-all-all/jruby-irb.png">
 ![jruby in irb]({{ site.url }}/images/2014/02/irb-and-all-all-all/jruby-irb.png)
+</a>
 
 Дальше, думаю, следует обсудить ключи. Их много, они разные. В документации они все [есть](http://www.ruby-doc.org/stdlib-2.0/libdoc/irb/rdoc/IRB.html#module-IRB-label-Command+line+options). Самые интересные, на мой взляд, - `-d` включающий дебаг мод(аналогично `ruby -d`) и ключ `-I path`, загружающий указанную директорию.
 
@@ -43,7 +45,9 @@ end
 
 Как он будет работать, спросите вы? Да все просто, берете объект и вызываете на нем данный метод:
 
+<a class="lightbox" href="{{ site.url }}/images/2014/02/irb-and-all-all-all/irb_local_methods.png">
 ![Using local_mathods method in irb]({{ site.url }}/images/2014/02/irb-and-all-all-all/irb_local_methods.png)
+</a>
 
 Думаю, вы заметили цвета, которых не хватает в дефолтном irb? 
 
@@ -70,13 +74,17 @@ require 'pry'
 {% endhighlight %}
 
 Ну а выглядеть это будет как-то так:
+<a class="lightbox" href="{{ site.url }}/images/2014/02/irb-and-all-all-all/pry.gif">
 ![Using pry in irb]({{ site.url }}/images/2014/02/irb-and-all-all-all/pry.gif)
+</a>
 
 Но самое полезное, что можно сделать, это забыть построчный ввод кода. "Как?", спросите вы? Начну издалека: мне очень нравится vim :) Поэтому, смотря vimcasts-ы, я узнал то, что перевернуло мой мир, а именно: любой текстовый редактор можно [вызывать](http://vimcasts.org/episodes/running-vim-within-irb/) прямо из irb. 
 
 Делается это очень просто: нужно добавить гем `interactive_editor`. Данный гем позволяет вызывать любой текстовый редактор из вашего irb, например, набрав `vim` - откроется vim, где вы сможете набрать любой код, который выполнится после сохранения файла и закрытия редактора. 
 
+<a class="lightbox" href="{{ site.url }}/images/2014/02/irb-and-all-all-all/vim-in-irb.gif">
 ![Using vim in irb]({{ site.url }}/images/2014/02/irb-and-all-all-all/vim-in-irb.gif)
+</a>
 
 Собственно то же самое будет работать с sublime, textmate, emacs и [дургими](https://github.com/jberkel/interactive_editor/blob/master/lib/interactive_editor.rb#L92) текстовыми редакторами. 
 

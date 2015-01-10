@@ -28,8 +28,12 @@ tags:
 
 Так что же это все дает нам, обычным программистам? Во первых, мы можем приобщиться к истории, а если серьезно - ввиду того, что раньше не было мыши, то все комманды печатались на клавиатуре, и никакие Васи не тыкали мышкой в кнопочки на экране. Ну а так как тыкаться мышкой в интерфейсе дольше, чем использовать хоткеи, то мы получаем довольно сильный профит в скорости. Во вторых, интерфейс не перегружен излишней функциональностью, как во многих IDE или текстовых редакторах. Предлагаю вам сравнить скриншоты vim-а и какого-нибудь eclipse. 
 
+<a class="lightbox" href="http://2.bp.blogspot.com/_ZzOZmj1dP0c/TNcTx8DygaI/AAAAAAAAA0Q/Ar2BsQs11VI/s1600/gvim.png">
 ![Vim](http://2.bp.blogspot.com/_ZzOZmj1dP0c/TNcTx8DygaI/AAAAAAAAA0Q/Ar2BsQs11VI/s1600/gvim.png)
+</a>
+<a class="lightbox" href="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Eclipse_4.3.Kepler_screenshot.png/800px-Eclipse_4.3.Kepler_screenshot.png">
 ![Eclipse](http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Eclipse_4.3.Kepler_screenshot.png/800px-Eclipse_4.3.Kepler_screenshot.png)
+</a>
 
 Сказать по правде, я давно хотел спросить, вы часто тыкаете во все эти кнопки в cтроке наверху?
 

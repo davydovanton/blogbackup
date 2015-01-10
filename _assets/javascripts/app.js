@@ -17,4 +17,6 @@
       body.classList.remove('disable-hover')
     },500);
   }, false);
+
+  $('a.lightbox').fluidbox();
 }();
