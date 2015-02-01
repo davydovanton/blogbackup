@@ -6,6 +6,7 @@ $overlay-bg-color: rgba(0,0,0,0.65);
 .fluidbox {
 	outline: none;
 }
+
 .fluidbox-overlay {
 	background-color: $overlay-bg-color;
 	cursor: pointer;
@@ -20,6 +21,7 @@ $overlay-bg-color: rgba(0,0,0,0.65);
 	/* Transition time for overlay is halved to ensure that flickering doesn't happen */
 	transition: all $transition-duration/2 ease-in-out $transition-duration/2;
 }
+
 .fluidbox-wrap {
 	background-position: center center;
 	background-size: cover;
@@ -30,6 +32,7 @@ $overlay-bg-color: rgba(0,0,0,0.65);
 	/* To prevent flickering, we delay the showing of the image */
 	.fluidbox-closed & img { transition: opacity 0 ease-in-out $transition-duration; }
 }
+
 .fluidbox-ghost {
 	background-size: 100% 100%;
 	background-position: center center;
