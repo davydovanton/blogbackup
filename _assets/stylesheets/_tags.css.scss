@@ -17,25 +17,24 @@
   }
 
   .tags__name {
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
     border: 0;
     height: 1px;
     margin: 30px 0 15px 0;
     text-align: center;
-
 
     a {
       color: #333;
     }
 
     span {
+      background: white;
+      padding: 0 10px;
       position: relative;
       top: -15px;
-      padding: 0 10px;
-      background: white;
     }
   }
 
@@ -47,7 +46,7 @@
   }
 
   .tags__post {
-    list-style-type: none;
     font-size: 1.3rem;
+    list-style-type: none;
   }
 }

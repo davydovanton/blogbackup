@@ -1,9 +1,9 @@
 code {
   background-color: rgba(0,0,0,0.12);
+  border-color: #f8f8f8;
   border-radius: 3px;
   margin: 0;
   padding: 0.2em;
-  border-color: #f8f8f8;
 }
 
 .highlight {
@@ -16,14 +16,14 @@ code {
   white-space: pre-wrap;
 
   pre {
-    white-space: pre;
     overflow: auto;
+    white-space: pre;
     word-wrap: normal;
   }
 
   code {
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     background-color: transparent;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   }
 }
 
