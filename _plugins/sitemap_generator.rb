@@ -14,7 +14,6 @@
 require 'rexml/document'
 
 module Jekyll
-
   class Post
     attr_accessor :name
 
