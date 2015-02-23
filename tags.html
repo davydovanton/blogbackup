@@ -12,7 +12,6 @@ permalink: /tags/
         {% assign tag_name = tag | first | downcase %}
         {% assign tag_weight = tag | first | size | times: 100 | divided_by: site.tags.size %}
 
-
         <li>
           <a href="/tags/#{{tag_name | replace:" ","-" }}">
             <span class="secondary radius label" style="font-size: {{ 200 | minus: tag_weight }}%">{{ tag_name }}</span>
